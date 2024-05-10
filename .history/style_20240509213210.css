@@ -31,20 +31,8 @@
   position: absolute;
 }
 
-.username {
-  margin-top: 30vh;
-  margin-left: 20vh;
-}
-.nickname {
-  font-size: 30px;
-  margin-top: 6vh;
-  margin-left: 5vh;
-}
-.sidebar-list {
-margin-top: 15vh;
-}
-.item {
-  margin: 5vh;
+.blog-handle {
+  font-size: 20px;
 }
 .header {
   position: fixed;

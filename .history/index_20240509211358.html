@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Blog!!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+<body>
+
+  <div class="sidebar-wrapper">
+    <!--Side Nav Left-->
+    <div class="sidebar-left">
+      <img src="images/Ellipse 1.svg" class="profile" width="150px" />
+      <img src="images/Rectangle 2.svg" class="background-photo" />
+    </div>
+
+      <!-- Header -->
+  <header class="header">
+    <li>
+      <p>Recent Posts</p>
+      <p>Top 3 Cuties X333</p>
+      <p>My Fav Animes!!</p>
+    </li>
+  </header>
+
+    <!--Side Nav Right-->
+    <div class="sidebar-right">
+      <img src="images/Rectangle 2.svg" class="background-photo" />
+    </div>
+  </div>
+
+ 
+
+    <!-- Photo grid -->
+    <div class="">
+      <div class="w3-third">
+        <img src="" style="width:100%" onclick="onClick(this)" alt="">
+        <img src="" style="width:100%" onclick="onClick(this)" alt="">
+        <img src="" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+
+
+    <!-- Pagination -->
+    <div class="">
+      <div class="">
+        <a href="#" class="">«</a>
+        <a href="#" class="">1</a>
+        <a href="#" class="">2</a>
+        <a href="#" class="">3</a>
+        <a href="#" class="">4</a>
+        <a href="#" class="">»</a>
+      </div>
+    </div>
+
+
+  
+
+        <!-- Footer -->
+        </footer>
+
+        <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+            title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+        <!-- End page content -->
+      </div>
+
+      <script>
+        function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+          document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+          document.getElementById("myOverlay").style.display = "none";
+        }
+
+        // Modal Image Gallery
+        function onClick(element) {
+          document.getElementById("img01").src = element.src;
+          document.getElementById("modal01").style.display = "block";
+          var captionText = document.getElementById("caption");
+          captionText.innerHTML = element.alt;
+        }
+      </script>
+
+
+</body>
+
+</html>

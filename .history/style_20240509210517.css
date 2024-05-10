@@ -3,20 +3,19 @@
   padding: 0;
 }
 
-.sidebar-wrapper {
+body {
   display: flex;
-  width: 100%;
   justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .sidebar-left {
+  display: flex;
   width: 415px;
   height: 1980px;
   background-color: rgb(221, 221, 221);
   z-index: 0;
-  position: fixed;
-  left: 0;
-  top: 0;
 }
 
 .profile {
@@ -27,44 +26,15 @@
 }
 
 .background-photo {
-  z-index: -5;
+  z-index: 0;
   position: absolute;
 }
 
-.username {
-  margin-top: 30vh;
-  margin-left: 20vh;
-}
-.nickname {
-  font-size: 30px;
-  margin-top: 6vh;
-  margin-left: 5vh;
-}
-.sidebar-list {
-margin-top: 15vh;
-}
-.item {
-  margin: 5vh;
-}
-.header {
-  position: fixed;
-  top: 0;
-  display: flex;
-}
-
-.content-list {
-  display: flex;
-  margin: 4vh;
-}
-
-
 .sidebar-right {
+  display: flex;
   width: 415px;
   height: 1980px;
   background-color: rgb(221, 221, 221);
   z-index: 0;
   right: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
 }

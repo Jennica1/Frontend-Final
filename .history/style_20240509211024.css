@@ -6,7 +6,6 @@
 .sidebar-wrapper {
   display: flex;
   width: 100%;
-  justify-content: center;
 }
 
 .sidebar-left {
@@ -27,36 +26,9 @@
 }
 
 .background-photo {
-  z-index: -5;
+  z-index: 0;
   position: absolute;
 }
-
-.username {
-  margin-top: 30vh;
-  margin-left: 20vh;
-}
-.nickname {
-  font-size: 30px;
-  margin-top: 6vh;
-  margin-left: 5vh;
-}
-.sidebar-list {
-margin-top: 15vh;
-}
-.item {
-  margin: 5vh;
-}
-.header {
-  position: fixed;
-  top: 0;
-  display: flex;
-}
-
-.content-list {
-  display: flex;
-  margin: 4vh;
-}
-
 
 .sidebar-right {
   width: 415px;
