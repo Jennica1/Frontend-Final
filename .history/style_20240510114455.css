@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+.header {
+  position: absolute;
+  right: 35rem;
+  top: 10rem;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -11,14 +17,12 @@
 .flexbox {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 0;
+  justify-content: flex-start;
 }
 
 .sidebar-wrapper {
   display: flex;
   justify-content: center;
-  height: 100vh;
 }
 
 .sidebar-left {
@@ -54,6 +58,11 @@ margin-top: 15vh;
 .item {
   margin: 5vh;
 }
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+}
 
 .content-list {
   display: flex;
@@ -62,18 +71,12 @@ margin-top: 15vh;
 
 
 .sidebar-right {
+  width: 415px;
+  height: 1980px;
   background-color: rgb(221, 221, 221);
   z-index: 0;
-  width: 25%;
-}
-
-.header {
-  background-color: #444444;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-}
-
-.main-content {
-  width: 100%;
+  right: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
 }

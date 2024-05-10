@@ -70,8 +70,6 @@ margin-top: 15vh;
 .header {
   background-color: #444444;
   color: #ffffff;
-  display: flex;
-  justify-content: center;
 }
 
 .main-content {
