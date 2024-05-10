@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-wrapper {
+  display: flex;
+}
+
+.sidebar-left {
+  width: 415px;
+  height: 1980px;
+  background-color: rgb(221, 221, 221);
+  z-index: 0;
+}
+
+.profile {
+  z-index: 1;
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 2vh;
+}
+
+.background-photo {
+  z-index: 0;
+  position: absolute;
+}
+
+.sidebar-right {
+  width: 415px;
+  height: 1980px;
+  background-color: rgb(221, 221, 221);
+  z-index: 0;
+  right: 0;
+}

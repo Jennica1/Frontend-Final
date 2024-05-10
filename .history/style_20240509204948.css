@@ -1,0 +1,19 @@
+body {
+  display: flex;
+
+}
+
+.sidebar {
+  display: flex;
+}
+
+.profile {
+  z-index: 1;
+  position: absolute;
+ 
+}
+
+.background-photo {
+  z-index: 0;
+  position: absolute;
+}
