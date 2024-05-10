@@ -12,7 +12,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 0;
 }
 
 .sidebar-wrapper {
@@ -70,10 +69,6 @@ margin-top: 15vh;
 .header {
   background-color: #444444;
   color: #ffffff;
-  display: flex;
-  justify-content: center;
-}
-
-.main-content {
+  padding: 1px;
   width: 100%;
 }
