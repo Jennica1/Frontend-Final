@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.sidebar-wrapper {
+  display: flex;
+  justify-content: center;
+  height: auto;
+
+}
+
+.sidebar-left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: rgb(221, 221, 221);
+  z-index: 0;
+  padding-right: 9.1rem;
+  width: 25vh;
+}
+
+.profile {
+  z-index: 1;
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 2vh;
+}
+
+.background-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  object-fit: cover;
+
+}
+
+.background-container {
+  width: 100%;
+}
+
+.username {
+  margin-top: 30vh;
+  margin-left: 20vh;
+}
+
+.nickname {
+  font-size: 30px;
+  margin-top: 6vh;
+  margin-left: 5vh;
+}
+
+.sidebar-list {
+  margin-top: 15vh;
+}
+
+.item {
+  margin: 5vh;
+}
+
+.content-list {
+  display: flex;
+  margin: 4vh;
+}
+
+
+.sidebar-right {
+  background-color: rgb(221, 221, 221);
+  z-index: 0;
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh;
+}
+
+.search-bar {
+  width: 20vh;
+}
+.friends-list {
+  height: auto;
+  margin-top: 4vh;
+}
+
+.friends-container {
+  width: 30vh;
+  height: 50vh;
+  background-color: rgb(141, 141, 141);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.friend {
+  width: 25vh;
+  height: 7vh;
+  border-radius: 10px;
+  background-color: black;
+  margin: 2vh;
+}
+
+.message-board-container {
+  width: 30vh;
+  height: 50vh;
+  background-color: rgb(141, 141, 141);
+  border-radius: 20px;
+}
+.message-board {
+  margin-top: 4vh;
+}
+
+.message {
+
+}
+
+.header {
+  background-color: #444444;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  width: 100%;
+}
