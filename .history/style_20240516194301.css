@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.sidebar-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.sidebar-left {
+  background-color: rgb(221, 221, 221);
+  z-index: 0;
+  padding-right: 9.1rem;
+  width: 250px;
+}
+
+.profile {
+  z-index: 1;
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 2vh;
+}
+
+.background-photo {
+  z-index: -5;
+  position: absolute;
+object-fit: contain;
+ 
+}
+
+.username {
+  margin-top: 30vh;
+  margin-left: 20vh;
+}
+.nickname {
+  font-size: 30px;
+  margin-top: 6vh;
+  margin-left: 5vh;
+}
+.sidebar-list {
+margin-top: 15vh;
+}
+.item {
+  margin: 5vh;
+}
+
+.content-list {
+  display: flex;
+  margin: 4vh;
+}
+
+
+.sidebar-right {
+  background-color: rgb(221, 221, 221);
+  z-index: 0;
+  width: 25%;
+}
+
+.header {
+  background-color: #444444;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  width: 100%;
+}
