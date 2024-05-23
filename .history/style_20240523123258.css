@@ -95,6 +95,7 @@
   align-items: center;
   padding: 2vh;
   font-family: Arial;
+  height: 100vh;
 }
 
 .search-bar {
@@ -113,7 +114,7 @@
   width: 30vh;
   height: 50vh;
   background-color: #FFD2FB;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -195,5 +196,5 @@ border: transparent;
 }
 
 .main-content {
-
+  display: flex;
 }
