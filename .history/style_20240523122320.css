@@ -114,7 +114,7 @@
   width: 30vh;
   height: 50vh;
   background-color: #FFD2FB;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -173,8 +173,7 @@ width: 29.7vh;
 }
 
 .button-post {
-width: 8vh;
-height: 2vh;
+width: 5vh;
 right: 0;
 background-color: #500076;
 color: white;
