@@ -95,7 +95,6 @@
   align-items: center;
   padding: 2vh;
   font-family: Arial;
-  height: 100vh;
 }
 
 .search-bar {
@@ -114,7 +113,7 @@
   width: 30vh;
   height: 50vh;
   background-color: #FFD2FB;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -134,18 +133,11 @@
 
 .message-board-container {
   width: 30vh;
-  height: 20vh;
+  height: 30vh;
   background-color: #FFD2FB;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 20px;
   display: flex;
-  flex-direction: column-reverse;
-  overflow-y: auto;
-}
-
-.message-board-content {
-  margin: 10px;
-
+  flex-direction: column;
 }
 
 .message-board {
@@ -153,32 +145,20 @@
 }
 
 .message {
-  width: 80%;
-  height: auto;
+  width: 25vh;
   margin: 1vh;
   align-items: left;
   display: flex;
   flex-direction: column;
-  background-color: purple;
-  padding: 1vh;
-  border-radius: 5px;
-  color: white;
 }
 
-.user-input {
-  width: 50%;
-}
 .text-box {
-width: 29.7vh;
+width: fit-content;
 }
 
 .button-post {
-width: 8vh;
-height: 2vh;
-right: 0;
-background-color: #500076;
-color: white;
-border: transparent;
+width: 5vh;
+left: 100;
 }
 
 .header {
