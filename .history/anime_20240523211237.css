@@ -95,7 +95,7 @@
   align-items: center;
   padding: 2vh;
   font-family: Arial;
-  height: auto;
+  height: 100vh;
 }
 
 .search-bar {
@@ -203,17 +203,15 @@
 }
 
 .anime-container {
-font-family: arial;
+  height: 20%;
 }
 .animeTitle {
   margin-top: 30px;
 }
 
-.anime {
-  margin-top: 30px;
-}
 .luckyStarImage {
-  
+  position: absolute;
+  margin-top: 100px;
 }
 
 .luckystarText {
@@ -221,7 +219,8 @@ font-family: arial;
 }
 
 .attackImage {
-
+  position: absolute;
+  margin-top: 400px;
 }
 
 .attackText {
@@ -229,10 +228,10 @@ font-family: arial;
 }
 
 .evangelionImage {
-
+  position: absolute;
+  margin-top: 700px;
 }
 
 .evangelionText {
   text-align: center;
-  margin-bottom: 30px;
 }
