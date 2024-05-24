@@ -202,3 +202,33 @@
   justify-content: center;
 }
 
+.animeTitle {
+  margin-top: 30px;
+}
+
+.luckyStarImage {
+  position: absolute;
+  margin-top: 100px;
+}
+
+.luckystarText {
+  text-align: center;
+}
+
+.attackImage {
+  position: absolute;
+  margin-top: 400px;
+}
+
+.attackText {
+  text-align: center;
+}
+
+.evangelionImage {
+  position: absolute;
+  margin-top: 700px;
+}
+
+.evangelionText {
+  text-align: center;
+}
