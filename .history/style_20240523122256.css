@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.sidebar-wrapper {
+  display: flex;
+  justify-content: center;
+  height: auto;
+
+}
+
+.sidebar-left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #FF88F3;
+  z-index: 0;
+  padding-right: 9.1rem;
+  width: 25vh;
+  font-family: Arial;
+}
+
+.profile {
+  z-index: 1;
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 2vh;
+}
+
+.background-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 29vh;
+  object-fit: cover;
+
+}
+
+.background-container {
+  width: 100%;
+}
+
+.username {
+  margin-top: 30vh;
+  margin-left: 20vh;
+}
+
+.nickname {
+  font-size: 25px;
+  margin-top: 6vh;
+  margin-left: 5vh;
+  width: 100%;
+  font-weight: BOLD;
+}
+
+.sidebar-list {
+  margin-top: 15vh;
+}
+
+.item {
+  margin: 5vh;
+}
+
+.content-list {
+  display: flex;
+  margin: 4vh;
+}
+
+.link {
+  color: white;
+  margin: 2vh;
+}
+
+
+.sidebar-right {
+  background-color: #FF88F3;
+  z-index: 0;
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh;
+  font-family: Arial;
+  height: 100vh;
+}
+
+.search-bar {
+  width: 29vh;
+  height: 4vh;
+  border-radius: 10px;
+  border: transparent;
+  background-color: #FFD2FB;
+}
+.friends-list {
+  height: auto;
+  margin-top: 4vh;
+}
+
+.friends-container {
+  width: 30vh;
+  height: 50vh;
+  background-color: #FFD2FB;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content:start;
+}
+
+
+.friend {
+  width: 25vh;
+  height: 7vh;
+  border-radius: 10px;
+  background-color: #500076;
+  margin: 2vh;
+  display: flex;
+  align-items: center;
+}
+
+.message-board-container {
+  width: 30vh;
+  height: 20vh;
+  background-color: #FFD2FB;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: auto;
+}
+
+.message-board-content {
+  margin: 10px;
+
+}
+
+.message-board {
+  margin-top: 4vh;
+}
+
+.message {
+  width: 80%;
+  height: auto;
+  margin: 1vh;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  padding: 2vh;
+  color: white;
+}
+
+.user-input {
+  width: 50%;
+}
+.text-box {
+width: 29.7vh;
+}
+
+.button-post {
+width: 5vh;
+right: 0;
+background-color: #500076;
+color: white;
+border: transparent;
+}
+
+.header {
+  background-color: #AF2BEE;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+}
+
+.centre-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+
+}

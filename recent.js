@@ -1,0 +1,25 @@
+document.getElementById("btn-recent").addEventListener("click", function () {
+  const newPostText = document.getElementById("new-post").value;
+  const timeStamp = new Date().toLocaleDateString(); // Get the current date as the time stamp
+
+  const recentsContainer = document.createElement("div");
+  recentsContainer.classList.add("post");
+
+  const timeStampElement = document.createElement("p");
+  timeStampElement.classList.add("time-stamp");
+  timeStampElement.innerText = timeStamp;
+
+  const recentsElement = document.createElement("p");
+  recentsElement.classList.add("post-text");
+  recentsElement.innerText = newPostText;
+
+  recentsContainer.appendChild(timeStampElement);
+  recentsContainer.appendChild(recentsElement);
+
+  const recentPostsContainer = document.getElementById("recents-container");
+
+  recentPostsContainer.insertBefore(recentsContainer, recentPostsContainer.firstChild);
+
+
+  document.getElementById("new-post").value = "";
+});
