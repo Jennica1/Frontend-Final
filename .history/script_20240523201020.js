@@ -3,7 +3,6 @@ const beautifulButton = document.getElementById("button-2")
 const saveButton = document.getElementById("button-3")
 const thumbsDown = document.getElementById("thumbs-down")
 const heart = document.getElementById("heart");
-const save = document.getElementById("save")
 
 const uglyAppear = () => {
     thumbsDown.style.display = "block";
@@ -15,16 +14,4 @@ const uglyDisappear = () => {
 
 const beautifulAppear = () => {
     heart.style.display = "block";
-}
-
-const beautifulDisappear = () => {
-    heart.style.display = "none";
-}
-
-const saveAppear = () => {
-    save.style.display = "block";
-}
-
-const saveDisappear = () => {
-    save.style.display = 'none';
 }

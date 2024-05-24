@@ -179,17 +179,6 @@
   align-items: center;
 }
 
-.buttons {
-  display: flex;
-  flex-direction: row;
-}
-
-.button-columns {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .button {
   background-color: #500076;
   color: #ffffff;
@@ -206,18 +195,6 @@
 }
 
 .thumbsdown {
-  width: 50px;
-  height: 50px;
-  animation: myAnim 2s ease 0s 1 normal forwards;
-}
-
-.heartIcon {
-  width: 50px;
-  height: 50px;
-  animation: myAnim 2s ease 0s 1 normal forwards;
-}
-
-.saveIcon {
   width: 50px;
   height: 50px;
   animation: myAnim 2s ease 0s 1 normal forwards;
